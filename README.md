@@ -15,7 +15,10 @@ Then you have to update the `sudo vim /usr/share/X11/xkb/rules/evdev.xml` with t
 ```
 
 ## windows
-download keyboard layout creator
+download keyboard layout creator.
+
+Load the source file.
+
 Project > build DLL and setup package
 
 
