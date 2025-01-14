@@ -1,5 +1,5 @@
 # keyboard-layout
-##linux
+## linux
 ```
 cp nimaslayout >> ~/.config/xkb/nimaslayout
 ```
