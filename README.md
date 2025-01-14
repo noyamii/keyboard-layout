@@ -20,8 +20,8 @@ Project > build DLL and setup package
 
 
 # layout
-Normal mode
+### Normal mode
 ![Normal](images/normal.png)
 
-Shift mode
+### Shift mode
 ![withShift](images/withShift.png)
