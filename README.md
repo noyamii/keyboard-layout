@@ -19,7 +19,7 @@ download keyboard layout creator.
 
 Load the source file.
 
-Project > build DLL and setup package
+then go to Project > build DLL and setup package
 
 
 # layout
