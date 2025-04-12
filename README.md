@@ -1,17 +1,21 @@
 # keyboard-layout
 ## linux
 ```
-cp nimaslayout >> ~/.config/xkb/nimaslayout
+cp nimaslayout >> ~/usr/share/X11/xkb/symbols/nima
 ```
 Then you have to update the `sudo vim /usr/share/X11/xkb/rules/evdev.xml` with the following, add it near the other English keyboards.
 ```
-<variant>
-    <configItem>
-        <name>nimaslayout</name>
-        <description>English (nimaslayout)</description>
-        <vendor>nima</vendor>
-    </configItem>
-</variant>
+<layout>
+ <configItem>
+   <name>nima</name>
+   <shortDescription>en</shortDescription>
+   <description>English (nima)</description>
+   <languageList>
+      <iso639Id>eng</iso639Id>
+   </languageList>
+ </configItem>
+ <variantList/>
+</layout>
 ```
 
 ## windows
