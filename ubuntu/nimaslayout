@@ -28,7 +28,7 @@ xkb_symbols "nimaslayout" {
     key <AD08> { [          i,  I               ]       };
     key <AD09> { [          o,  O               ]       };
     key <AD10> { [          p,  P               ]       };
-    key <AD11> { [      plus,  minus        ]       };
+    key <AD11> { [      minus,  plus        ]       };
     key <AD12> { [      at,     asciicircum             ]       };
 
     key <AC01> { [          a,  A               ]       };
